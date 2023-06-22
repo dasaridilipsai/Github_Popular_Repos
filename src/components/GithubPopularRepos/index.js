@@ -122,7 +122,7 @@ class GithubPopularRepos extends Component {
           <LanguageFilterItem
             key={eachLanguageFilter.id}
             isActive={eachLanguageFilter.id === activeLanguageFilterId}
-            languageFiltersDetails={eachLanguageFilter}
+            languageFilterDetails={eachLanguageFilter}
             setActiveLanguageFilterId={this.setActiveLanguageFilterId}
           />
         ))}
